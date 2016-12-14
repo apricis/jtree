@@ -1,0 +1,9 @@
+C,D,I,G,S,L,J,H
+C,D
+D,C,I,G
+I,D,G,S
+G,D,I,S,L,J,H
+S,I,G,L,J
+L,G,S,J,H
+J,G,S,L,H
+H,G,L,J
