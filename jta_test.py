@@ -2,13 +2,16 @@
 # @Author: Dmytro Kalpakchi
 # @Date:   2016-12-15 22:38:36
 # @Last Modified by:   Dmytro Kalpakchi
-# @Last Modified time: 2016-12-15 23:01:52
+# @Last Modified time: 2016-12-15 23:38:41
 
+import matplotlib.pyplot as plt
+import networkx as nx
+from pgmpy.models import BayesianModel
 from pgmpy.inference import VariableElimination
-from jta import readAdjList, jta, BayesianModel, get_different
+from jta import readAdjList, jta, get_different
 
 if __name__ == '__main__':
-	V, E, CPD = readAdjList("./student_adjlist_dgm.csv")
+	V, E, CPD = readAdjList("./simple_adjlist_dgm.csv")
 
 	print "Results of the implemented JTA"
 

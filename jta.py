@@ -2,9 +2,8 @@
 # @Author: dmytro
 # @Date:   2016-12-14 14:05:22
 # @Last Modified by:   Dmytro Kalpakchi
-# @Last Modified time: 2016-12-15 23:01:20
+# @Last Modified time: 2016-12-15 23:03:01
 
-import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
 import csv
