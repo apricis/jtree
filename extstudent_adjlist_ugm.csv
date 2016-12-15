@@ -4,6 +4,6 @@ D,C,I,G
 I,D,G,S
 G,D,I,S,L,J,H
 S,I,G,L,J
-L,G,S,J,H
+L,G,S,J
 J,G,S,L,H
-H,G,L,J
+H,G,J
